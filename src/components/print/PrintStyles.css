@@ -1,0 +1,41 @@
+@media print {
+  body {
+    margin: 0;
+  }
+
+  .thermal-slip {
+    width: 58mm;
+    font-family: monospace;
+    font-size: 12px;
+  }
+
+  .a4-certificate {
+    width: 210mm;
+    height: 297mm;
+    padding: 20mm;
+    font-family: sans-serif;
+    background: white;
+    color: black;
+  }
+}
+
+/* Screen preview styles */
+.thermal-slip {
+  width: 58mm;
+  font-family: monospace;
+  font-size: 12px;
+  margin: 0 auto;
+  background: white;
+  color: black;
+  padding: 10px;
+}
+
+.a4-certificate {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto;
+  background: white;
+  color: black;
+  padding: 20mm;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
